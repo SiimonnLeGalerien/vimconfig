@@ -6,6 +6,7 @@ echo "syntax on" >> ~/.vimrc
 echo "filetype plugin indent on" >> ~/.vimrc
 echo "set number" >> ~/.vimrc
 echo "set tabstop=2" >> ~/.vimrc
+echo "set shiftwidth=2" >> ~/.vimrc
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/preservim/tagbar.git ~/.vim/bundle/tagbar
