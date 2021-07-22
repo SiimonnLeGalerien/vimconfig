@@ -19,6 +19,7 @@ echo -e "\n \" shortcuts \n" >> ~/.vimrc
 echo "nmap <C-n>	:bn<CR>" >> ~/.vimrc
 echo "nmap <C-p> 	:bp<CR>" >> ~/.vimrc
 echo "nmap <F3>		:TagbarToggle<CR>" >> ~/.vimrc
+echo "nmap <F4>		:NERDTreeToggle<CR>" >> ~/.vimrc
 echo -e "\n" >> ~/.vimrc
 echo "set omnifunc=syntaxcomplete#Complete" >> ~/.vimrc
 echo -e "\ncolorscheme slate\nset bg=light" >> ~/.vimrc
